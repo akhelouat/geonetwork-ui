@@ -1,0 +1,12 @@
+{
+  "name": "@geonetwork-ui/data-fetcher",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "@camptocamp/ogc-client": "^0.3.4",
+    "papaparse": "^5.3.1",
+    "xlsx": "^0.17.3"
+  },
+  "peerDependencies": {}
+}
