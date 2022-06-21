@@ -136,7 +136,7 @@ export class AppModule {
       getThemeConfig().MAIN_FONT || "'Rubik', sans-serif",
       getThemeConfig().TITLE_FONT || "'Readex Pro', sans-serif",
       getThemeConfig().FONTS_STYLESHEET_URL ||
-        'https://fonts.googleapis.com/css2?family=Readex+Pro&family=Rubik&display=swap'
+      'https://fonts.googleapis.com/css2?family=Readex+Pro&family=Rubik&display=swap'
     )
     ThemeService.generateBgOpacityClasses(
       'primary',
