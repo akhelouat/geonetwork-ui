@@ -45,6 +45,7 @@ import { FeatureCatalogModule } from '@geonetwork-ui/feature/catalog'
 import { SearchSummaryComponent } from './search/search-summary/search-summary.component'
 import { NavigationBarComponent } from './record/navigation-bar/navigation-bar.component'
 import { THUMBNAIL_PLACEHOLDER } from '@geonetwork-ui/ui/search'
+import { PaginationComponent } from './search/pagination/pagination.component'
 
 export const metaReducers: MetaReducer[] = !environment.production ? [] : []
 // https://github.com/nrwl/nx/issues/191
@@ -60,6 +61,7 @@ export const metaReducers: MetaReducer[] = !environment.production ? [] : []
     RecordPageComponent,
     SearchSummaryComponent,
     NavigationBarComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
